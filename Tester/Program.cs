@@ -4,8 +4,18 @@ public class Program
 {
     public static void Main()
     {
-        ConsoleU.WriteLineWithColor("Hello world!", ConsoleColor.Blue);
         ConsoleU.WriteWithColor("Hello ", ConsoleColor.Magenta);
-        ConsoleU.WriteWithColor("there!", ConsoleColor.Cyan);
+        ConsoleU.WriteLineWithColor("there!", ConsoleColor.Cyan);
+        
+        
+        var answer = ConsoleU.RequestStringInput("Please enter your name: ");
+        
+        ConsoleU.WriteLineWithColor($"Your name is {answer}", ConsoleColor.Green);
+
+        Console.WriteLine("That is great!");
+
+        var answer2 = ConsoleU.RequestStringInput("Please enter your second name: ", ConsoleColor.DarkBlue);
+
+        Console.WriteLine($"So your full name is {answer} {answer2}");
     }
 }

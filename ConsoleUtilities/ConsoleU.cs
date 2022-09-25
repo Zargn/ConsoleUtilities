@@ -27,4 +27,19 @@ public static class ConsoleU
         Console.Write(value);
         Console.ForegroundColor = oldColor;
     }
+    
+    /// <summary>
+    /// Combines a WriteLine and ReadLine call into one method that presents the user with a string and then returns the answer provided by the user.
+    /// </summary>
+    /// <param name="question">question – The question to present to the user.</param>
+    /// <param name="color">color - The color of the printed question. Can be left blank for default color.</param>
+    /// <returns>The next line of characters from the input stream, or null if no more lines are available.</returns>
+    public static string? RequestStringInput(string question, ConsoleColor? color = null)
+    {
+        if (color != null)
+            WriteWithColor(question, (ConsoleColor) color);
+        else
+            Console.Write(question);
+        return Console.ReadLine();
+    }
 }
