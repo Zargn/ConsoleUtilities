@@ -17,5 +17,12 @@ public class Program
         var answer2 = ConsoleU.RequestStringInput("Please enter your second name: ", ConsoleColor.DarkBlue);
 
         Console.WriteLine($"So your full name is {answer} {answer2}");
+
+        var age = ConsoleU.RequestIntInput("Please enter your age: ", ConsoleColor.Blue, ConsoleColor.Red);
+
+
+        ConsoleU.WriteWithColor(answer + " ", ConsoleColor.Blue);
+        ConsoleU.WriteWithColor(answer2 + " ", ConsoleColor.Cyan);
+        ConsoleU.WriteLineWithColor(age, ConsoleColor.Green);
     }
 }
