@@ -8,7 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ConsoleUtilities\ConsoleUtilities.csproj" />
+      <ProjectReference Include="..\SimpleConsoleHelpers\SimpleConsoleHelpers.csproj" />
     </ItemGroup>
 
 </Project>

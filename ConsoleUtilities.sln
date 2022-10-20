@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUtilities", "ConsoleUtilities\ConsoleUtilities.csproj", "{69BF91A2-5BB0-46EF-AE7A-D39707A64DD0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleConsoleHelpers", "SimpleConsoleHelpers\SimpleConsoleHelpers.csproj", "{69BF91A2-5BB0-46EF-AE7A-D39707A64DD0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Tester\Tester.csproj", "{029A6AE7-98CD-4E12-B1D2-64E727F9C902}"
 EndProject

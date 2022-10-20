@@ -1,6 +1,6 @@
 ﻿namespace ConsoleUtilities;
 
-public static class ConsoleU
+public static class SimpleConsoleHelpers
 {
     /// <summary>
     /// Writes the specified string value, followed by the current line terminator, to the standard output stream in the color specified.
